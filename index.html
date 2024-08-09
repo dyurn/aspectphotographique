@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ma Galerie</title>
+  <title>Accueil - Aspect Photographique</title>
   <link rel="icon" href="images/icon/favicon.svg" type="image/x-icon">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/gallery-styles.css">
 </head>
 <body>
-  <header>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
       <div class="container">
         <a class="navbar-brand" href="#">Aspect photographique</a>
@@ -20,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Ma Galerie Photo</a>
+              <a class="nav-link" href="#">Accueil</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="shop.html">Boutique</a>
@@ -29,119 +30,63 @@
         </div>
       </div>
     </nav>
-  </header>
-  <main>
-    <section class="container mt-5">
-      <div class="text-center mb-4">
-        <h2 class="gallery-title">Ma Galerie de Photographies</h2>
-        <p class="text-muted gallery-description">Découvrez une collection de mes meilleures œuvres photographiques. Chaque image raconte une histoire unique.</p>
-      </div>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-        </ol>
-        <div class="carousel-inner shadow-lg rounded">
-          <div class="carousel-item active">
-            <img src="images/photo1.jpg" class="d-block w-100 rounded" alt="Photo 1">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Titre de la Photo 1</h5>
-              <p>Description ou légende pour la photo 1.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/photo2.jpg" class="d-block w-100 rounded" alt="Photo 2">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Titre de la Photo 2</h5>
-              <p>Description ou légende pour la photo 2.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/photo3.jpg" class="d-block w-100 rounded" alt="Photo 3">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Titre de la Photo 3</h5>
-              <p>Description ou légende pour la photo 3.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/photo4.jpg" class="d-block w-100 rounded" alt="Photo 4">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Titre de la Photo 4</h5>
-              <p>Description ou légende pour la photo 4.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/photo5.jpg" class="d-block w-100 rounded" alt="Photo 5">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Titre de la Photo 5</h5>
-              <p>Description ou légende pour la photo 5.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/photo6.jpg" class="d-block w-100 rounded" alt="Photo 6">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Titre de la Photo 6</h5>
-              <p>Description ou légende pour la photo 6.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="images/photo7.jpg" class="d-block w-100 rounded" alt="Photo 7">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Titre de la Photo 7</h5>
-              <p>Description ou légende pour la photo 7.</p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Précédent</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Suivant</span>
-        </a>
-      </div>
 
-      <div class="row text-center mt-5">
-        <div class="col-md-4 col-sm-6 mb-4">
-          <img src="images/photo1.jpg" class="img-thumbnail rounded zoomable shadow-sm" alt="Photo 1">
-        </div>
-        <div class="col-md-4 col-sm-6 mb-4">
-          <img src="images/photo2.jpg" class="img-thumbnail rounded zoomable shadow-sm" alt="Photo 2">
-        </div>
-        <div class="col-md-4 col-sm-6 mb-4">
-          <img src="images/photo3.jpg" class="img-thumbnail rounded zoomable shadow-sm" alt="Photo 3">
-        </div>
-        <div class="col-md-4 col-sm-6 mb-4">
-          <img src="images/photo4.jpg" class="img-thumbnail rounded zoomable shadow-sm" alt="Photo 4">
-        </div>
-        <div class="col-md-4 col-sm-6 mb-4">
-          <img src="images/photo5.jpg" class="img-thumbnail rounded zoomable shadow-sm" alt="Photo 5">
-        </div>
-        <div class="col-md-4 col-sm-6 mb-4">
-          <img src="images/photo6.jpg" class="img-thumbnail rounded zoomable shadow-sm" alt="Photo 6">
-        </div>
-        <div class="col-md-4 col-sm-6 mb-4">
-          <img src="images/photo7.jpg" class="img-thumbnail rounded zoomable shadow-sm" alt="Photo 7">
-        </div>
-      </div>
+  <br>
+  <br>
+  <br>
+  <section class="image-section">
+    <img src="images/photo1.jpg" alt="Placeholder Image">
+    <div class="text-overlay">Explorer</div>
+  </section>
 
-      <div class="text-center mt-4">
-        <p>Découvrez plus de mes œuvres sur <a href="https://www.flickr.com/photos/tbottinelli/" target="_blank">mon Flickr</a>.</p>
-      </div>
-    </section>
-  </main>
+  <section class="image-section">
+    <img src="images/photo2.jpg" alt="Placeholder Image">
+    <div class="text-overlay">Vibrer</div>
+  </section>
+
+  <section class="image-section">
+    <img src="images/photo3.jpg" alt="Placeholder Image">
+    <div class="text-overlay">Découvrir</div>
+  </section>
+
+  <section class="image-section">
+    <img src="images/photo4.jpg" alt="Placeholder Image">
+    <div class="text-overlay">Créer</div>
+  </section>
+
+  <section class="image-section">
+    <img src="images/photo5.jpg" alt="Placeholder Image">
+    <div class="text-overlay">Imaginer</div>
+  </section>
+
+  <section class="image-section">
+    <img src="images/photo6.jpg" alt="Placeholder Image">
+    <div class="text-overlay">Rêver</div>
+  </section>
   <footer>
     <p>© 2024 Aspect Photographique</p>
+    <div class="social-icons">
+      <!-- Ajoutez vos icônes de réseaux sociaux ici -->
+    </div>
   </footer>
+  <script>
+    window.addEventListener('scroll', function() {
+      const sections = document.querySelectorAll('.image-section');
+      sections.forEach(section => {
+        const text = section.querySelector('.text-overlay');
+        const rect = section.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        // Calcul d'opacité ajusté pour centrer l'effet
+        const opacity = Math.max(0, Math.min(1, (rect.top + rect.height / 2) / windowHeight));
+
+        console.log(`Section top: ${rect.top}, Window height: ${windowHeight}, Calculated opacity: ${opacity}`);
+
+        text.style.opacity = 1.03-opacity;
+      });
+    });
+
+  </script>
+
 </body>
 </html>

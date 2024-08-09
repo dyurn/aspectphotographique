@@ -6,11 +6,6 @@ body {
   color: #333;
 }
 
-.header {
-  font-family: 'Merriweather', serif;
-  color: red;
-}
-
 .hero h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
@@ -47,6 +42,13 @@ h4 {
 }
 
 /* Style personnalisé pour le header et la navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 .bg-custom {
   background-color: #000361; /* Couleur de fond personnalisée pour la navbar */
   border-bottom: 3px solid #34b2b0; /* Bordure rouge en bas de la navbar */
@@ -153,4 +155,3 @@ footer small {
   color: #bbb;
   font-size: 0.8em;
 }
-
