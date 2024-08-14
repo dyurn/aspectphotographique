@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f5f5f5;
-  color: #ffffff;
+  color: #f4d7d7;
   overflow-x: hidden; /* Empêche le défilement horizontal */
 }
 
@@ -18,7 +18,7 @@ body {
   z-index: 1; /* Z-index plus bas pour que les images soient en dessous de la navbar */
 }
 
-.image-section img {
+.image-section img, video {
   position: absolute;
   top: 0;
   left: 0;
@@ -40,6 +40,6 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-
   opacity: 0; /* Texte initialement invisible */
 }
+

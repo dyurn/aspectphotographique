@@ -35,6 +35,19 @@
   <br>
   <br>
   <br>
+
+    <!-- Section Vidéo -->
+    <section class="image-section">
+      <video autoplay loop muted playsinline width="100%" height="auto">
+        <source src="videos/video.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas les vidéos HTML5.
+      </video>
+      <div class="first-img">
+        <div class="text-overlay">Vibrer</div>
+      </div>
+    </section>
+    
+    <!-- Section Images -->  
   <section class="image-section">
     <img src="images/photo1.jpg" alt="Placeholder Image">
     <div class="text-overlay">Explorer</div>
@@ -84,7 +97,7 @@
 
         console.log(`Section top: ${rect.top}, Window height: ${windowHeight}, Calculated opacity: ${opacity}`);
 
-        text.style.opacity = 1.03-opacity;
+        text.style.opacity = 1.06-opacity;
       });
     });
 
